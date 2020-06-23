@@ -18,7 +18,8 @@
       <div class="container " style="text-align: center;">
         <div class="row" style="margin:auto;">
 
-          <div class="login-form" style="margin:auto;">
+          <!-- THIS IS THE FORM WHEN YOU FIRST CLICK IT-->
+          <div class="login-form" style="margin:auto;">            
             <form style="margin-top:140px;">            
                 <h2 class="text-center">Forgot password ?</h2>            
                 <div class="form-group">
@@ -32,6 +33,25 @@
             </form>
             <p class="text-center small">Go back to <a href="/login">Sign in</a> or <a href="/register">Sign up here!</a></p>
         </div>
+
+        <!-- THIS IS THE FORM WHEN YOU GOT A TOKEN -->
+         <div class="forgot-form" style="margin:auto;">            
+          <form style="margin-top:140px;">            
+              <h2 class="text-center">Select new password</h2>            
+              <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="New password" required="required">		
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="Confirm new password" required="required">		
+              </div>
+          
+              <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Change</button>
+              </div>
+                          
+          </form>
+          <p class="text-center small">Go back to <a href="/login">Sign in</a> or <a href="/register">Sign up here!</a></p>
+      </div>
 
         </div>
       </div>
